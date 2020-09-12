@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.gymcontainer {
+    display: flex;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    z-index: 99999;
+  
+    
+}
+
+#gymlogo {
+  color: white;
+  letter-spacing: 3px;
+  display: flex;
+  font-size:28px;
+  align-items: center;
+  padding-left: 6px;
+  margin: 0;
+  padding: 16px;
+  width: 15%;
+}
+
+ul {
+    display: flex;
+
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    
+    width:60%;
+    margin: 0;
+    
+
+
+}
+
+ul li {
+padding: 6px 38px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    
+    box-shadow: 0px 0px 28px 0px grey;
+   
+    
+
+    outline: line;
+ background-color: rgba(44, 37, 37, 0.7);
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    opacity: 0.7;
+  
+}
+
+
+.gymbackground  {
+    background: rgba(0, 0, 0, 0.7) url(../Images/Gym.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.gymsearchbar {
+    display: flex;
+    
+    width: 25%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 12px;
+    
+}
+
+#gymsearchbox {
+    height: 18px;
+    width: 140px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid grey;
+    color: white;
+    margin: 0px 8px;
+}
+
+i {
+    color: white;
+}
+
+#gymsection {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+
+#gymservices {
+text-align: center;
+margin: 12px 0px;
+}
+
+#gymsection3 {
+    display: flex;
+    margin-top:26px;
+    height: 420px;
+}
+
+#gymform {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 8px 6px;
+    background-color: rgb(248, 242, 242);
+    box-shadow: 6px 6px 8px grey;
+    margin: 0px 18px;
+   
+}
+
+#gymsection3inside {
+    width: 60%;
+    padding: 8px 18px;
+    background-color: rgb(248, 242, 242);
+    margin: 0px 18px;
+    box-shadow: 6px 6px 8px grey;
+    
+}
+
+.gymforminside {
+    padding: 6px 8px;
+    max-width: 500px;
+    margin: 12px 0px;
+}
+
+
+.gymbutton {
+    margin: 16px 0px;
+    width: 68px;
+    outline: none;
+    border: none;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 3px 3px;
+}
+
+
+.gymcards {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+
+.card {
+    margin: 0px 6px;
+   
+}
+
+.gymbg-lite {
+    background-color: #dbe2e9;
+    margin-top: 26px;
+}
+
+.gymcarousel {
+    height: 430px;
+}
+
+#gymcarouseltext {
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+.gymperson {
+    border-radius: 65px;
+    height: 85px;
+    margin-bottom: 12px;
+}
+
+#gymfooter {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+    margin-top: 12px;
+}
+
+.gymburger {
+     display: none; 
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 3%;
+}
+
+.gymburgerline {
+    width: 26px;
+    background-color: white;
+    color: white;
+    height: 3px;
+    margin: 6px 0px;
+    
+}
+

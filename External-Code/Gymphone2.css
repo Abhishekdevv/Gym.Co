@@ -1,0 +1,51 @@
+ .gym1visibility {
+    display: none;
+}
+.gymvisibility {
+    display: none;
+}
+
+.gymburger {
+    display: block;
+}
+
+.gymcontainer {
+    height: 230px;
+    transition: all 0.3s ease-in;
+  
+}
+.gymheight{
+    height: 68px;
+  }
+
+
+ul{
+    flex-direction: column;
+    width: 70%;
+ 
+}
+ul li {
+    padding: 8px 0px;
+}
+
+#gymsearchbox {
+
+    width: 114px;
+}
+
+
+
+#gymlogo {
+     display:inline-block;
+    font-size: 24px;
+}
+
+.h1, h1 {
+    font-size: 1.5rem;
+}
+
+.gymforminside {
+    padding: 4px 3px;
+    max-width: 500px;
+    margin: 8px 0px;
+}
